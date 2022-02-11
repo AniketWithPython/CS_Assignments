@@ -6,9 +6,9 @@ while True:
 Employee's GrossPay more than equal to 1000000
 4. Update the BasicPay by increasing 10% \of BasicPay  for those employee's whose BasicPay is less than 20000 and 
 display the details using tabular form
-5. Copy  the Employee's details (Empdict  )  whose  Age  is  more  than  60  to  another  dictionary  (Retddict)  and  display  the  details 
+5. Copy  the Employee's details (Empdict)  whose  Age  is  more  than  60  to  another  dictionary  (Retddict)  and  display  the  details 
 using tabular form after copy
-6. Delete the Employee's details (Empdict ) whose Age is more than 60 and display the details using tabular form after deletion
+6. Delete the Employee's details (Empdict) whose Age is more than 60 and display the details using tabular form after deletion
 
 Enter desired Option: ''')
 

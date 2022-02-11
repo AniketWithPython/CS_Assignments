@@ -1,5 +1,6 @@
 while True:
     choice=input("Enter option(C/c for countries or S/s for student details): ")
+    
     if choice in 'Cc':
         d={}
         n=int(input("Enter no. of entries: "))
@@ -17,6 +18,7 @@ while True:
         search=input("Enter country name to search: ")
         print("{:<10}{:<14}{:<14}{}\n\n".format('Name','Capital','Currency','Population'))
         print("{:<10}{:<14}{:<14}{}\n".format(search,d[search][0],d[search][1],d[search][2]))
+    
     elif choice in 'Ss':
         d={}
         n=int(input("Enter no. of entries: "))
