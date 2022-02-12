@@ -41,13 +41,13 @@ Enter desired Option: ''')
                 Emp_IT=Emp_AI*(25/100)
             Empdict[Emp_no]=(Emp_name,Emp_Age,Emp_BasicPay,Emp_DA,Emp_HRA,Emp_CA,Emp_MA,Emp_PF,Emp_GrossPay,Emp_NetPay,Emp_AI,Emp_IT)
 
-    elif choice in '2':
+    elif choice=='2':
         print("{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{}\n".format('ID','Name','Age','Basic_pay','DA','HRA','CA','MA','PF','Gross_Pay','Net_Pay','AI','IT'))
         for i in Empdict.keys():
             dt=Empdict[i]
             print("{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{}".format(i,dt[0],dt[1],dt[2],dt[3],dt[4],dt[5],dt[6],dt[7],dt[8],dt[9],dt[10],dt[11]))
 
-    elif choice in '3':
+    elif choice=='3':
         print("{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{}\n".format('ID','Name','Age','Basic_pay','DA','HRA','CA','MA','PF','Gross_Pay','Net_Pay','AI','IT'))
         c=0
         for i in Empdict.keys():
@@ -57,7 +57,7 @@ Enter desired Option: ''')
             print("{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{}".format(i,dt[0],dt[1],dt[2],dt[3],dt[4],dt[5],dt[6],dt[7],dt[8],dt[9],dt[10],dt[11]))
             c+=1
         print("No. of employees whose gross pay more than equal to 1000000:",c)
-    elif choice in '4':
+    elif choice=='4':
         print("{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{}\n".format('ID','Name','Age','Basic_pay','DA','HRA','CA','MA','PF','Gross_Pay','Net_Pay','AI','IT'))
         for i in Empdict.keys():
             dt=Empdict[i]
@@ -67,7 +67,7 @@ Enter desired Option: ''')
                 dt=tuple(dt)
             print("{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{}".format(i,dt[0],dt[1],dt[2],dt[3],dt[4],dt[5],dt[6],dt[7],dt[8],dt[9],dt[10],dt[11]))
 
-    elif choice in '5':
+    elif choice=='5':
         Retddict={}
         for i in Empdict.keys():
             dt=Empdict[i]
@@ -78,7 +78,7 @@ Enter desired Option: ''')
             dt=Retddict[i]
             print("{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{}".format(i,dt[0],dt[1],dt[2],dt[3],dt[4],dt[5],dt[6],dt[7],dt[8],dt[9],dt[10],dt[11]))
 
-    elif choice in '6':
+    elif choice=='6':
         print("{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{}\n".format('ID','Name','Age','Basic_pay','DA','HRA','CA','MA','PF','Gross_Pay','Net_Pay','AI','IT'))
         for i in Empdict.keys():
             dt=Empdict[i]
