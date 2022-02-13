@@ -57,6 +57,7 @@ Enter desired Option: ''')
             print("{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{}".format(i,dt[0],dt[1],dt[2],dt[3],dt[4],dt[5],dt[6],dt[7],dt[8],dt[9],dt[10],dt[11]))
             c+=1
         print("No. of employees whose gross pay more than equal to 1000000:",c)
+    
     elif choice=='4':
         print("{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{:<8}{:<8}{:<8}{:<11}{:<8}{:<8}{}\n".format('ID','Name','Age','Basic_pay','DA','HRA','CA','MA','PF','Gross_Pay','Net_Pay','AI','IT'))
         for i in Empdict.keys():
