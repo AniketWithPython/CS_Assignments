@@ -15,8 +15,7 @@ def FACT_SERIES(a:int,terms:int):       #FACT_SERIES function
         c+=1
     print("series is",ser)
     ser='+'.join(ser.split(","))
-    s=eval(ser)
-    print("sum is",s)
+    print("sum is",eval(ser))
 
 def NEW_STR(inp:str):       #NEW_STR function e.g Subhash Bose -> S Bose
     l=inp.split()
