@@ -2,7 +2,8 @@
     {
         "question": "What does CPU stand for?",
         "correct_answer": "Central Processing Unit",
-        "incorrect_answers": [
+        "options": [
+            "Central Processing Unit",
             "Central Process Unit",
             "Computer Personal Unit",
             "Central Processor Unit"
@@ -11,7 +12,8 @@
     {
         "question": "When Gmail first launched, how much storage did it provide for your email?",
         "correct_answer": "1GB",
-        "incorrect_answers": [
+        "options": [
+            "1GB",
             "512MB",
             "5GB",
             "Unlimited"
@@ -20,7 +22,8 @@
     {
         "question": "The programming language &#039;Swift&#039; was created to replace what other programming language?",
         "correct_answer": "Objective-C",
-        "incorrect_answers": [
+        "options": [
+            "Objective-C",
             "C#",
             "Ruby",
             "C++"
@@ -29,7 +32,8 @@
     {
         "question": "HTML is what type of language?",
         "correct_answer": "Markup Language",
-        "incorrect_answers": [
+        "options": [
+            "Markup Language",
             "Macro Language",
             "Programming Language",
             "Scripting Language"
@@ -38,7 +42,8 @@
     {
         "question": "What amount of bits commonly equals one byte?",
         "correct_answer": "8",
-        "incorrect_answers": [
+        "options": [
+            "8",
             "1",
             "2",
             "64"
@@ -47,7 +52,8 @@
     {
         "question": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn&#039;t get modified?",
         "correct_answer": "Final",
-        "incorrect_answers": [
+        "options": [
+            "Final",
             "Static",
             "Private",
             "Public"
@@ -56,7 +62,8 @@
     {
         "question": "If you were to code software in this language you&#039;d only be able to type 0&#039;s and 1&#039;s.",
         "correct_answer": "Binary",
-        "incorrect_answers": [
+        "options": [
+            "Binary",
             "JavaScript",
             "C++",
             "Python"
@@ -65,7 +72,8 @@
     {
         "question": "What does the Prt Sc button do?",
         "correct_answer": "Captures what&#039;s on the screen and copies it to your clipboard",
-        "incorrect_answers": [
+        "options": [
+            "Captures what&#039;s on the screen and copies it to your clipboard",
             "Nothing",
             "Saves a .png file of what&#039;s on the screen in your screenshots folder in photos",
             "Closes all windows"
@@ -74,7 +82,8 @@
     {
         "question": "What is the most preferred image format used for logos in the Wikimedia database?",
         "correct_answer": ".svg",
-        "incorrect_answers": [
+        "options": [
+            ".svg",
             ".png",
             ".jpeg",
             ".gif"
@@ -83,7 +92,8 @@
     {
         "question": "In web design, what does CSS stand for?",
         "correct_answer": "Cascading Style Sheet",
-        "incorrect_answers": [
+        "options": [
+            "Cascading Style Sheet",
             "Counter Strike: Source",
             "Corrective Style Sheet",
             "Computer Style Sheet"
@@ -92,7 +102,8 @@
     {
         "question": "What is the code name for the mobile operating system Android 7.0?",
         "correct_answer": "Nougat",
-        "incorrect_answers": [
+        "options": [
+            "Nougat",
             "Ice Cream Sandwich",
             "Jelly Bean",
             "Marshmallow"
@@ -101,7 +112,8 @@
     {
         "question": "On Twitter, what was the original character limit for a Tweet?",
         "correct_answer": "140",
-        "incorrect_answers": [
+        "options": [
+            "140",
             "120",
             "160",
             "100"
@@ -110,7 +122,8 @@
     {
         "question": "In &quot;Hexadecimal&quot;, what color would be displayed from the color code? &quot;#00FF00&quot;?",
         "correct_answer": "Green",
-        "incorrect_answers": [
+        "options": [
+            "Green",
             "Red",
             "Blue",
             "Yellow"
@@ -119,7 +132,8 @@
     {
         "question": "What does LTS stand for in the software market?",
         "correct_answer": "Long Term Support",
-        "incorrect_answers": [
+        "options": [
+            "Long Term Support",
             "Long Taco Service",
             "Ludicrous Transfer Speed",
             "Ludicrous Turbo Speed"
@@ -128,7 +142,8 @@
     {
         "question": "The numbering system with a radix of 16 is more commonly referred to as ",
         "correct_answer": "Hexidecimal",
-        "incorrect_answers": [
+        "options": [
+            "Hexidecimal",
             "Binary",
             "Duodecimal",
             "Octal"
@@ -137,7 +152,8 @@
     {
         "question": "Which programming language shares its name with an island in Indonesia?",
         "correct_answer": "Java",
-        "incorrect_answers": [
+        "options": [
+            "Java",
             "Python",
             "C",
             "Jakarta"
@@ -146,7 +162,8 @@
     {
         "question": "How long is an IPv6 address?",
         "correct_answer": "128 bits",
-        "incorrect_answers": [
+        "options": [
+            "128 bits",
             "32 bits",
             "64 bits",
             "128 bytes"
@@ -155,7 +172,8 @@
     {
         "question": "In computing, what does MIDI stand for?",
         "correct_answer": "Musical Instrument Digital Interface",
-        "incorrect_answers": [
+        "options": [
+            "Musical Instrument Digital Interface",
             "Musical Interface of Digital Instruments",
             "Modular Interface of Digital Instruments",
             "Musical Instrument Data Interface"
@@ -164,7 +182,8 @@
     {
         "question": "In computing, what does LAN stand for?",
         "correct_answer": "Local Area Network",
-        "incorrect_answers": [
+        "options": [
+            "Local Area Network",
             "Long Antenna Node",
             "Light Access Node",
             "Land Address Navigation"
@@ -173,7 +192,8 @@
     {
         "question": "What language does Node.js use?",
         "correct_answer": "JavaScript",
-        "incorrect_answers": [
+        "options": [
+            "JavaScript",
             "Java",
             "Java Source",
             "Joomla Source Code"
