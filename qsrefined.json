@@ -20,7 +20,7 @@
         ]
     },
     {
-        "question": "The programming language &#039;Swift&#039; was created to replace what other programming language?",
+        "question": "The programming language Swift was created to replace what other programming language?",
         "correct_answer": "Objective-C",
         "options": [
             "Objective-C",
@@ -120,7 +120,7 @@
         ]
     },
     {
-        "question": "In &quot;Hexadecimal&quot;, what color would be displayed from the color code? &quot;#00FF00&quot;?",
+        "question": "In Hexadecimal, what color would be displayed from the color code? #00FF00?",
         "correct_answer": "Green",
         "options": [
             "Green",
