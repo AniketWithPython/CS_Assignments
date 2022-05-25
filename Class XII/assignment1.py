@@ -1,6 +1,6 @@
 #Assignment 1
 while True:
-    choice=input("Enter S/s for list swtich and C/c to capitalize first and last letter of each word: ") #input choice
+    choice=input("Enter S/s for list shift and C/c to capitalize first and last letter of each word: ") #input choice
     
     if choice in 'Ss':
         #switch first index to 2nd, 2nd to 3rd and so on
