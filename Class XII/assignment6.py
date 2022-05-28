@@ -17,9 +17,9 @@ def main():
                 ops=qs["options"]
                 random.shuffle(ops)
 
-                print("A)",ops[0],"B)",ops[1],"C)",ops[2],"D)",ops[3])
+                print("A)",ops[0],"\nB)",ops[1],"\nC)",ops[2],"\nD)",ops[3])
                 while True:
-                    resp=input("Enter response (A/B/C/D): ")
+                    resp=input("\n\nEnter response (A/B/C/D): ")
                     if resp not in "AaBbCcDd":
                         print("Invalid response")
                     else:
