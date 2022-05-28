@@ -25,7 +25,7 @@ def main():
                     else:
                         break
                 if ops[maps.index(resp.upper())]==qs['correct_answer']:
-                score+=1
+                    score+=1
 
     print(f"\nYour final score is {score}/4")
 
