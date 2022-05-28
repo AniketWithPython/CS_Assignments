@@ -8,28 +8,29 @@ maps=["A", "B", "C", "D"]
 def main():
     norepeat=[]
     score=0
-    while len(norepeat)<4
+    while len(norepeat)<4:
             n=random.randrange(20)
             if n not in norepeat:
                 norepeat.append(n)
-            qs=questions[n]
-            print(qs["question"])
-            ops=qs["options"]
-            random.shuffle(ops)
+                qs=questions[n]
+                print(qs["question"])
+                ops=qs["options"]
+                random.shuffle(ops)
 
-            print("A)",ops[0],"B)",ops[1],"C)",ops[2],"D)",ops[3])
-            while True:
-                resp=input("Enter response (A/B/C/D): ")
-                if resp not in "AaBbCcDd":
-                    print("Invalid response")
-                else:
-                    break
-            if ops[maps.index(resp.upper())]==qs['correct_answer']:
-            score+=1
+                print("A)",ops[0],"B)",ops[1],"C)",ops[2],"D)",ops[3])
+                while True:
+                    resp=input("Enter response (A/B/C/D): ")
+                    if resp not in "AaBbCcDd":
+                        print("Invalid response")
+                    else:
+                        break
+                if ops[maps.index(resp.upper())]==qs['correct_answer']:
+                score+=1
 
     print(f"\nYour final score is {score}/4")
 
 while True:
-    yn=input("\nDo you want to continue?(Y/N): ")
-    if yn in 'yY':
+    yn="y"
+    while yn in 'yY':
         main()
+        yn=input("\nDo you want to continue?(Y/N): ")
