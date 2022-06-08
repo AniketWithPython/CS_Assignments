@@ -13,7 +13,7 @@ def FACT_SERIES(a:int,terms:int):       #FACT_SERIES function
     while c<terms+1:
         ser+=', '+str(a**c/fact(c-1))
         c+=1
-    print("series is",ser)
+    print("series is:",ser)
     ser='+'.join(ser.split(","))
     print("sum is",eval(ser))
 
