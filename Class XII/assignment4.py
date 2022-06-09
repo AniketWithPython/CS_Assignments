@@ -46,7 +46,7 @@ def DICT_RECD_DELETE(inp:dict):
 def main():
     while True:
         
-        choice=input("Enter function (1 for DICT_SORT, 2 for STRING_NOC, 3 for DICT_RECD_DELETE)")
+        choice=input("Enter function (1 for DICT_SORT, 2 for STRING_NOC, 3 for DICT_RECD_DELETE): ")
 
         if choice=="1":
             #DICT_SORT
