@@ -15,10 +15,10 @@ def DICT_SORT(inp:dict):
             if inp[j][1]==i:
                 print("{:<8}{:<8}{}".format(j,inp[j][0],inp[j][1]))
     
-def STRING_NOC(inp:str):
-    inp.lower()
+def STRING_NOC(string:str):
+    string.lower()
     chars={}
-    for i in inp:
+    for i in string:
         if i not in chars.keys():
             chars[i]=1
         else:
@@ -27,21 +27,21 @@ def STRING_NOC(inp:str):
     for i in chars.keys():
         print(f"No. of {i.upper()}/{i}:",chars[i])
 
-def DICT_RECD_DELETE(inp:dict):
+def DICT_RECD_DELETE(inpdict:dict):
     #inp looks like {"Name":(age,salary)}
     print("Before Deletion\n")
     print("{:<8}{:<8}{}\n".format("Name","Age","Salary"))
-    for i in inp.keys():
-        print("{:<8}{:<8}{}".format(i,inp[i][0],inp[i][1]))
+    for i in inpdict.keys():
+        print("{:<8}{:<8}{}".format(i,inpdict[i][0],inpdict[i][1]))
     print()
-    keys=list(inp.keys())
+    keys=list(inpdict.keys())
     for j in keys:
-        if inp[j][0]>60:
-            del inp[j]
+        if inpdict[j][0]>60:
+            del inpdict[j]
     print("After Deletion\n")
     print("{:<8}{:<8}{}\n".format("Name","Age","Salary"))
-    for i in inp.keys():
-        print("{:<8}{:<8}{}".format(i,inp[i][0],inp[i][1]))
+    for i in inpdict.keys():
+        print("{:<8}{:<8}{}".format(i,inpdict[i][0],inpdict[i][1]))
         
 def main():
     while True:
