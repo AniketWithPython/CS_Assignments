@@ -79,7 +79,7 @@ def main():
             print("Invalid input. Try again")
             continue
 
-        yn=input("Do you want to continue?(y/n)")
+        yn=input("Do you want to continue?(y/n): ")
         if yn in "Nn":
             break
 
