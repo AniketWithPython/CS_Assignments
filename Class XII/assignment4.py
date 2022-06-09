@@ -76,7 +76,7 @@ def main():
             DICT_RECD_DELETE(details)
 
         else:
-            print("Invalid input. Try again: ")
+            print("Invalid input. Try again")
             continue
 
         yn=input("Do you want to continue?(y/n)")
