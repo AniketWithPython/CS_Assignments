@@ -26,17 +26,14 @@ def main():
     while True:
         
         choice=input("Enter function (1 for LSEARCH, 2 for BSEARCH): ")
-        
+        l=list(map(int,input("Enter values seperated by commas: ").split(',')))
+        search=int(input("Enter element to search: "))
         if choice=="1":
             #LSEARCH
-            l=list(map(int,input("Enter values seperated by commas: ").split(',')))
-            search=int(input("Enter element to search: "))
             LSEARCH(l,search)
         
         elif choice=="2":
             #BSEARCH
-            l=list(map(int,input("Enter values seperated by commas: ").split(',')))
-            search=int(input("Enter element to search: "))
             BSEARCH(l,search)
 
         else:
