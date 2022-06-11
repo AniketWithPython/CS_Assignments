@@ -19,7 +19,7 @@ def main():
         qs=questions[n]
         print(qs["question"])
         ops=qs["options"]
-        random.shuffle(ops)
+        random.shuffle(ops)     #shuffle options
 
         print("A)",ops[0],"B)",ops[1],"C)",ops[2],"D)",ops[3])
         while True:
