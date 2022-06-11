@@ -6,7 +6,7 @@ questions=[{'question': 'What does CPU stand for?', 'correct_answer': 'Central P
 maps={"A":0,"B":1,"C":2,"D":3}      #assigns number to response
 
 def main():
-    norepeat=[]     #to prevent repitition of qs
+    norepeat=[]     #to prevent repitition of questions
     score=0
     for i in range(4):
         while True:
