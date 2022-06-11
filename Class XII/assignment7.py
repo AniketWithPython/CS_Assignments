@@ -27,9 +27,11 @@ def main():
         choice=input("Enter S/s for SERIES or N/n for NEON: ")
         
         if choice in "Ss":
+            #SERIES
             n=int(input("Enter number of terms: "))
             SERIES(n)
         elif choice in "Nn":
+            #NEON
             n=int(input("Enter number to check: "))
             NEON(n)
         else:
