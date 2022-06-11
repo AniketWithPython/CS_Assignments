@@ -9,13 +9,9 @@ def main():
     norepeat=[]     #to prevent repitition of questions
     score=0
     for i in range(4):
-        while True:
+        n=random.randrange(20)
+        while n in norepeat:
             n=random.randrange(20)
-            if n in norepeat:
-                continue
-            else:
-                norepeat.append(n)
-                break
         qs=questions[n]
         print(qs["question"])
         ops=qs["options"]
