@@ -12,6 +12,7 @@ def main():
         n=random.randrange(20)
         while n in norepeat:
             n=random.randrange(20)
+        norepeat.append(n)
         qs=questions[n]
         print(qs["question"])
         ops=qs["options"]
