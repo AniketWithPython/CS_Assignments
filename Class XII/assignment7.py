@@ -1,8 +1,10 @@
+from tkinter import N
+
+
 def SERIES(terms:int):
-    ser=''
-    for i in range(1,terms+1):
+    ser='1'
+    for i in range(2,terms+1):
         ser+=', '+str((-1)**i*1/i)
-    ser=ser[2:]
     print(ser)
     ser='+'.join(ser.split(','))
     print("Sum is:",eval(ser))
