@@ -1,6 +1,3 @@
-from tkinter import N
-
-
 def SERIES(terms:int):
     ser=''
     for i in range(1,terms+1):
