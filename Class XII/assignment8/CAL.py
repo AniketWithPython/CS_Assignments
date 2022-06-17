@@ -18,42 +18,35 @@ def main():
 ''')
         if choice=='1':
             r=float(input("Enter radius: "))
-            ans=CIRCLE.ar_circle(r)
-            print("value is:",ans)
+            ans=CIRCLE.ar_circle(r)           
         elif choice=='2':
             r=float(input("Enter radius: "))
-            ans=CIRCLE.circum_circle(r)
-            print("value is:",ans)
+            ans=CIRCLE.circum_circle(r)          
         elif choice=='3':
             l=float(input("Enter length: "))
             b=float(input("Enter breadth: "))
-            ans=RECTANGLE.area_rec(l,b)
-            print("value is:",ans)
+            ans=RECTANGLE.area_rec(l,b)          
         elif choice=="4":
             l=float(input("Enter length: "))
             b=float(input("Enter breadth: "))
-            ans=RECTANGLE.peri_rec(l,b)
-            print("value is:",ans)
+            ans=RECTANGLE.peri_rec(l,b)           
         elif choice=="5":
             l=float(input("Enter length: "))
             b=float(input("Enter breadth: "))
             h=float(input("Enter height: "))
-            ans=VOL_SOLID.vol_cuboid(l,b,h)
-            print("value is:",ans)
+            ans=VOL_SOLID.vol_cuboid(l,b,h)           
         elif choice=="6":
             r=float(input("Enter radius: "))
             h=float(input("Enter height: "))
-            ans=VOL_SOLID.vol_cylinder(r,h)
-            print("value is:",ans)
+            ans=VOL_SOLID.vol_cylinder(r,h)           
         elif choice=="7":
             r=float(input("Enter radius: "))
             h=float(input("Enter height: "))
-            ans=VOL_SOLID.vol_cone(r,h)
-            print("value is:",ans)
+            ans=VOL_SOLID.vol_cone(r,h)           
         else:
             print("Invalid input. Try again")
             continue
-
+        print("value is:",ans)
         yn=input("Do you want to continue?(y/n): ")
 
 if __name__=="__main__":
