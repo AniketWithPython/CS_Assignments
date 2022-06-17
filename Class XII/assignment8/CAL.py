@@ -16,13 +16,13 @@ def main():
 6. vol_cylinder
 7. vol_cone
 ''')
-        if choice=='1':
+        if choice=="1":
             r=float(input("Enter radius: "))
             ans=CIRCLE.ar_circle(r)           
-        elif choice=='2':
+        elif choice=="2":
             r=float(input("Enter radius: "))
             ans=CIRCLE.circum_circle(r)          
-        elif choice=='3':
+        elif choice=="3":
             l=float(input("Enter length: "))
             b=float(input("Enter breadth: "))
             ans=RECTANGLE.area_rec(l,b)          
