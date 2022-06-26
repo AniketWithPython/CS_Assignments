@@ -33,5 +33,4 @@ def main():
         print("value is:",ans)
         yn=input("Do you want to continue?(y/n): ")
 
-if __name__=="__main__":
-    main()
+main()
