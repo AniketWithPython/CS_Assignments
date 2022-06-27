@@ -32,7 +32,3 @@ while yn in "Yy":
     check=main()
     if check==False:
         yn=input("Do you want to continue?(y/n):")
-
-        
-    
-             
