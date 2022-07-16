@@ -2,11 +2,17 @@ def MakePush(stack,elem):
     stack+=[elem]
 
 def MakeDisplay(stack):
+    if len(stack)==0:
+        print("Error: Underflow!")
+        return
     print(stack[-1],"at index",len(stack)-1)
     for i in stack[:-1][::-1]:
         print(i)
 
 def MakePop(stack):
+    if len(stack)==0:
+        print("Error: Underflow!")
+        return
     top=stack[-1]
     del stack[-1]
     return top
@@ -23,12 +29,11 @@ def main():
         elif choice=='3':
             print("popped element:",MakePop(MyStack))
         elif choice=='4':
-            return False
+            return
         else:
             print("Invalid input, try again")
             continue
 yn='y'
 while yn in "Yy":
-    check=main()
-    if check==False:
-        yn=input("Do you want to continue?(y/n):")
+    main()
+    yn=input("Do you want to continue?(y/n):")
