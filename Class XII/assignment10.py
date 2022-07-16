@@ -3,7 +3,7 @@ def MakePush(stack,elem):
 
 def MakeDisplay(stack):
     if len(stack)==0:
-        print("Error: Underflow!")
+        print("Error: Empty Stack!")
         return
     print(stack[-1],"at index",len(stack)-1)
     for i in stack[:-1][::-1]:
