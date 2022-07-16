@@ -12,8 +12,7 @@ def MakeDisplay(stack):
 
 def MakePop(stack):
     if len(stack)==0:
-        print("Error: Underflow!")
-        return
+        return "Error: Underflow!"
     top=stack[-1]
     del stack[-1]
     return top
