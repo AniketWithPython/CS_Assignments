@@ -32,7 +32,6 @@ def main():
             return
         else:
             print("Invalid input, try again")
-            continue
 yn='y'
 while yn in "Yy":
     main()
