@@ -6,7 +6,7 @@ def P_INSERT(p_no,p_name,p_score,p_amount,fileobj):
 def P_DISP(fileobj):
     print("{:<12}{:<12}{:<12}{}\n".format("p_no","p_name","p_score","p_amount"))
     for line in fileobj:
-        r=line.split(',')
+        r=line.split(',')       #delimiter is comma
         print("{:<12}{:<12}{:<12}{}\n".format(r[0],r[1],r[2],r[3]),end='')
 
 def P_COPY(fileobj):
