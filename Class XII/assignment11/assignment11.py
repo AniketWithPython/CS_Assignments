@@ -12,7 +12,7 @@ def P_DISP(fileobj):
 def P_COPY(fileobj):
     with open("./pcsports.txt","w") as f:
         for line in fileobj:
-            if int(line.split(',')[3])>=300000:
+            if int(line.split(',')[3])>=300000:     #4th field is p_amount
                 f.write(line)
                 
 def P_SEARCH(search,fileobj):
