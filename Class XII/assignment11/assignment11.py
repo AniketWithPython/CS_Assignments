@@ -18,7 +18,7 @@ def P_COPY(fileobj):
 def P_SEARCH(search,fileobj):
     rec=[]
     for line in fileobj:
-        if line.split(',')[0]==search:
+        if line.split(',')[0]==search:      #1st field is p_no.
             rec.append(line)
     if len(rec)==0:
         print("Sorry no records found")
