@@ -1,4 +1,4 @@
-#assignment 3
+#assignment3
 def fact(num:int):      #factorial 
     c=1
     fac=1
