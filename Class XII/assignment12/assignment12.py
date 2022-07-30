@@ -1,10 +1,5 @@
-#WORK IN PROGRESS
-
+#assignment12
 import pickle as pkl
-#----------------------IGNORE (for system purposes only)---------------------
-from os import chdir
-chdir(r'C:\Users\Student\Desktop\CS CW\assignment12')
-#----------------------------------------------------------------------------
 def c_insert(data,fileobj):
     pkl.dump(data,fileobj)
 
@@ -36,7 +31,8 @@ def c_copy(fileobj):
         if r[2]=='03222':
             copy.append(r)
     with open('./teleback.dat','wb') as f:
-        pkl.dump(copy)
+        pkl.dump(copy,f)
+    print("data copied succesfully")
     c_disp(open('teleback.dat','rb'))
 
 def main():
@@ -62,6 +58,7 @@ def main():
         elif choice=='3':
             f=open('./telephone.dat','rb')
             odat=pkl.load(f)
+            f.close()
             ans='y'
             dat=[]
             while ans in 'yY':
@@ -70,7 +67,7 @@ def main():
                 code=input("Enter consumer area code: ")
                 phno=input("Enter consumer phoneno.: ")
                 bill=input("Enter consumer bill: ")
-                dat.append([no,name,code,phno,bill,f])
+                dat.append([no,name,code,phno,bill])
                 ans=input("add more?:")
             with open('./telephone.dat','wb') as f:
                 c_append(odat,dat,f)
