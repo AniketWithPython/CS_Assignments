@@ -1,4 +1,4 @@
-#assignment 2
+#assignment2
 def ARMSTRONG(num:int):     #to check armstrong number
     c=0
     num1=num
