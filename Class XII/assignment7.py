@@ -1,3 +1,4 @@
+#assignment7
 def SERIES(terms:int):
     ser='1'
     for i in range(2,terms+1):
