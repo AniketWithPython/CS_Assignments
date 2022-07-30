@@ -1,4 +1,4 @@
-#Assignment 1
+#assignment1
 while True:
     choice=input("Enter S/s for list shift and C/c to capitalize first and last letter of each word: ") #input choice
     
@@ -33,6 +33,7 @@ while True:
     else:
         print("Invalid input. Try again")
         continue
+        
 
     yn=input("Do you want to continue?(y/n): ")    #do you want to continue
     if yn in 'Nn':
