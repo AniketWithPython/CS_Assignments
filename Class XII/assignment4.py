@@ -1,5 +1,4 @@
 #assignment4
-
 def DICT_SORT(inp:dict):
     #inp looks like {roll:(name,marks)}
     print("Before Sorting\n")
@@ -85,5 +84,3 @@ def main():
 
 if __name__=="__main__":
     main()
-
-    
