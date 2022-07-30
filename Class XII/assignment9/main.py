@@ -1,5 +1,4 @@
 #assignment9
-
 import pack_vehicle
 
 def main():
