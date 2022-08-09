@@ -32,7 +32,7 @@ def c_copy(fileobj):
             copy.append(r)
     with open('./teleback.dat','wb') as f:
         pkl.dump(copy,f)
-    print("data copied succesfully")
+    print("data copied successfully")
     c_disp(open('./teleback.dat','rb'))
 
 def main():
