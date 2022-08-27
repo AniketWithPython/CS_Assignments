@@ -1,9 +1,4 @@
 #assignment14
-#----------------------IGNORE (for system purposes only)---------------------
-from os import chdir
-chdir(r'C:\Users\Student\Desktop\CS CW\assignmentx')
-#----------------------------------------------------------------------------
-
 import csv
 
 def add(data,fileobj):
