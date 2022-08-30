@@ -42,7 +42,7 @@ def s_copy(fileobj):
     data=pkl.load(fileobj)
     copy=[]
     for r in data:
-        if r[4]>='90':
+        if r[4]>=90:
             copy.append(r)
     with open('./student_top.dat','wb') as f:
         pkl.dump(copy,f)
