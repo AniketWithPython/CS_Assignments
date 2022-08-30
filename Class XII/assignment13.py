@@ -31,7 +31,7 @@ def s_search(search,fileobj):
 def s_update(data,fileobj):
     for r in data:      #update records
         if 155<=r[3]<165:
-            r[3]+=10
+            r[3]+=20
             r[4]=r[3]*0.2
     pkl.dump(data,fileobj)      #write updated data
     fileobj.close()
